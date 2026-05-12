@@ -1,0 +1,145 @@
+.navbar{
+    background-color: rgb(245, 213, 172);
+    height: 180px;
+    width: 100%;
+    top: 30;
+
+}
+
+/* Container */
+.menu-container {
+  position: relative;
+}
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger button */
+.hamburger {
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+}
+
+/* Hamburger lines */
+.hamburger span {
+  height: 4px;
+  background: black;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+
+/* Menu box */
+.menu {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 05;
+  background: white;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Menu links */
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.menu a:hover {
+  background: #f0f0f0;
+}
+
+/* Show menu when clicked */
+#menu-toggle:checked + .hamburger + .menu {
+  display: block;
+}
+/* .logo{
+   size:  30px;
+} */
+.navbar, a{
+    font-size: xx-large;
+    text-decoration: none;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar,a:hover{
+    color: rgb(3, 3, 3);
+}
+
+.pht{
+    border-radius: 15px;
+}
+
+.first{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 235, 222);
+}
+
+.first,a{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scnd{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 2px;
+  height: 500px;
+  background: black;
+  margin: 0 20px;
+}
+
+
+/* profile page */
+
+.profile{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.profile-input{
+  background-color: antiquewhite;
+  height: 200px;
+  width: 55%;
+  
+  align-items: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.profile-input-2{
+  background-color: antiquewhite;
+  height: 200px;
+  width: 35%;
+  
+}

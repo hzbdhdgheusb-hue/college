@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css"/>
+</head>
+  <header class="navbar">
+<div class="menu-container">
+
+  <!-- Hidden checkbox -->
+  <input type="checkbox" id="menu-toggle">
+
+  <!-- Hamburger icon -->
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Menu items -->
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="Profile.html">Profile</a>
+    <a href="second.html">Explore</a>
+    <a href="#">Login</a>
+    <a href="#">Settings</a>
+  </div>
+
+</div>
+        <img class="logo" src="data:image/png;base64,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"/>
+
+        <h1>THE NATIVE ARTICLE</h1>
+    
+
+
+    </header>
+<body>
+    <h1>Error-404 </h1>
+</body>
+</html>
